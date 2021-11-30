@@ -1,0 +1,210 @@
+
+body {
+  background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    padding-top: 50px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 500;
+    color: #fff;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #fff;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background-color: #ffbd00;
+	padding-top: 60px;
+}
+
+
+#columna_bg {
+background-position: center bottom;
+    min-height: 455px;
+    padding: 20px 0;
+    position: relative;
+    background-image: url(http://www.openenglish.com/wp-content/uploads/2015/12/hero_update.jpg);
+    background-color: #f6f6f6;
+    background-color: -moz-linear-gradient(top, #f6f6f6 0, #f1f1f1 50%, #d9d9d9 100%);
+    background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f6f6f6), color-stop(50%, #f1f1f1), color-stop(100%, #f6f6f6));
+    background-color: -webkit-linear-gradient(left, #f6f6f6 0, #f1f1f1 50%, #f6f6f6 100%);
+    background-color: -o-linear-gradient(top, #f6f6f6 0, #f1f1f1 50%, #f6f6f6 100%);
+    background-color: -ms-linear-gradient(top, #f6f6f6 0, #f1f1f1 50%, #f6f6f6 100%);
+    background-color: linear-gradient(to bottom, #f6f6f6 0, #f1f1f1 50%, #f6f6f6 100%); */
+    background-repeat: no-repeat;
+    border-top: none;
+    background-size: cover;
+    color: white;
+
+}
+
+#columna_bg_cosmo_r {
+background-position: center bottom;
+    min-height: 455px;
+    padding: 20px 0;
+    position: relative;
+ /*   background-image: url(http://infoagro.com/mexico/wp-content/uploads/2016/10/suelos.jpg);*/
+    background-color: #008DD2;
+    background-color: -moz-linear-gradient(top, #f6f6f6 0, #f1f1f1 50%, #d9d9d9 100%);
+    background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f6f6f6), color-stop(50%, #f1f1f1), color-stop(100%, #f6f6f6));
+    background-color: -webkit-linear-gradient(left, #f6f6f6 0, #f1f1f1 50%, #f6f6f6 100%);
+    background-color: -o-linear-gradient(top, #f6f6f6 0, #f1f1f1 50%, #f6f6f6 100%);
+    background-color: -ms-linear-gradient(top, #f6f6f6 0, #f1f1f1 50%, #f6f6f6 100%);
+    background-color: linear-gradient(to bottom, #f6f6f6 0, #f1f1f1 50%, #f6f6f6 100%); */
+    background-repeat: no-repeat;
+    border-top: none;
+    background-size: cover;
+    color: white;
+
+}
+
+#headerwrap h1 {
+	margin-top: 30px;
+	color: white;
+	font-size: 70px;
+	
+}
+
+#headerwrap h3 {
+	color: white;
+	font-size: 30px;
+}
+
+#headerwrap h5 {
+	color: white;
+	font-weight: 700;
+	text-align: left;
+}
+
+#headerwrap p {
+	text-align: left;
+	color: white
+}
+
+/* intro Wrap */
+
+#intro {
+	padding-top: 50px;
+	border-top: #bdc3c7 solid 5px;
+}
+
+#features {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#features .ac a{
+	font-size: 20px;
+}
+
+/* Showcase Wrap */
+
+#showcase {
+	display: block;
+/*	background-color: #34495e; */
+    background-color:#34495e;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#showcase h1 {
+	color: white;
+}
+
+#showcase h2 {
+    color: white;
+}
+
+#showcase p {
+    color: white;
+}
+
+#footerwrap {
+	background-color: #2f2f2f;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	text-align: left;
+}
+
+#footerwrap h3 {
+	font-size: 28px;
+	color: white;
+}
+
+#footerwrap p {
+	color: white;
+	font-size: 18px;
+}
+
+/* Copyright Wrap */
+
+#c {
+	background: #222222;
+	padding-top: 15px;
+	text-align: center;
+}
+
+#c p {
+	color: white
+}
+
